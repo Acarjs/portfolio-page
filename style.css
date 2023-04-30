@@ -54,7 +54,7 @@ body {
 
 /* -----HOME----- */
 .home {
-  background-image: url("/portfolio-page/img/bg-img.jpg");
+  background-image: url("./img/bg-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -368,12 +368,14 @@ a:visited {
   background-color: var(--light-grey);
   padding: 3rem;
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
 .footer__line {
-  width: 300px;
+  width: 250px;
   height: 10px;
   background-color: var(--green-color);
+  margin: 0 1rem;
 }
 
 .footer__heading {
