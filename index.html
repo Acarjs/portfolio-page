@@ -15,7 +15,7 @@
 
 <body>
   <nav class="nav">
-    <i class="fa-solid fa-code"></i>
+    <a class="nav__icon"><i class="fa-solid fa-code"></i></a>
     <ul class="nav__container">
       <li><a href="#home" class="nav__link">home</a></li>
       <li><a href="#skills" class="nav__link">skills</a></li>
@@ -190,9 +190,32 @@
   </section>
 
   <section class="social">
+    <h2 class="heading">Find me here</h2>
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-linkedin"></i>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="heading">Contact Me</h2>
+
+    <form class="form">
+      <input type="text" placeholder="First name *" class="form__input">
+      <input type="text" placeholder="Last name *" class="form__input">
+      <input type="email" placeholder="Email *" class="form__input">
+      <input type="tell" placeholder="Phone" class="form__input">
+      <label class="form__label" for="message">Message</label>
+      <textarea rows="6" name="message" id="message"></textarea>
+      <button class="form__button">Send My Message</button>
+    </form>
 
   </section>
 
+  <footer class="footer">
+    <h3 class="footer__heading">
+      <div class="footer__line"></div> Nice to meet you <div class="footer__line"></div>
+    </h3>
+  </footer>
 
+  <p>Copyright &copyAnil Acar 2023</p>
 
 </html>

@@ -1,4 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.5rem;
+}
+
+.nav__container {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  background: #444444;
+  color: #ffffff;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #232323;
+  background-color: #54be90;
+}
+
 .home {
   background-image: url("/portfolio-page/img/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
+  height: 80vh;
+  text-align: center;
 }
